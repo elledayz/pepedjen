@@ -2,7 +2,7 @@
 import telebot
 #instanciamos el bot de telegram
 TELEGRAM_TOKEN = "7396093828:AAGnVl82-lG7hBlkbuSJpXRayEy_pJJbY8A"
-#bot = telebot.TeleBot(TELEGRAM_TOKEN)
+bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
 
 
