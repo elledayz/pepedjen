@@ -1,4 +1,5 @@
 #from config import *
+pip install pyTelegramBotAPI
 import telebot
 #instanciamos el bot de telegram
 TELEGRAM_TOKEN = "7396093828:AAGnVl82-lG7hBlkbuSJpXRayEy_pJJbY8A"
@@ -41,7 +42,7 @@ def bot_mensajes_texto(message):
     #texto_markdown += '||SPOILER||' + '\n'
     #texto_markdown += '[ENLACE](https://pepedjen.djenerates.com/)' + '\n'
     
-    image_path = 'C:\Python\PythScripts\pepedjen.jpg'
+    image_path = 'C:/Python/PythScripts/pepedjen.jpg'
     #foto += open(image_path, "rb")
 
     if message.text.startswith("/team"):
