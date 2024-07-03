@@ -1,5 +1,5 @@
 #from config import *
-
+pip install -r requirements.txt
 import telebot
 #instanciamos el bot de telegram
 TELEGRAM_TOKEN = "7396093828:AAGnVl82-lG7hBlkbuSJpXRayEy_pJJbY8A"
