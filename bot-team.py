@@ -1,10 +1,8 @@
 #from config import *
 import telebot
 #instanciamos el bot de telegram
-TELEGRAM_TOKEN = "7396093828:AAGnVl82-lG7hBlkbuSJpXRayEy_pJJbY8A"
+TELEGRAM_TOKEN = "7290132679:AAGQvU-bDCLAU5LoCEqDq1tdzBL6jsto1f4"
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
-
-
 
 #responde al comando / start
 #@bot.message_handler(commands=["start", "ayuda", "help"])
